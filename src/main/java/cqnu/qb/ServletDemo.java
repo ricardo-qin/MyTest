@@ -17,4 +17,9 @@ public class ServletDemo extends HttpServlet {
         resp.setCharacterEncoding("UTF-8");
         resp.getWriter().append("It's OK:"+name);
     }
+
+    public void test(){
+        int i=0;
+        i+=10;
+    }
 }
