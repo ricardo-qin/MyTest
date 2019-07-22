@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FilterTest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="FilterTest.war">
+      <element id="artifact" artifact-name="FilterTest:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,24 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+    <filter-name>SensitiveWordsFilter</filter-name>
+    <filter-class>cqnu.qb.SensitiveWordsFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>SensitiveWordsFilter</filter-name>
+    <url-pattern>/maven</url-pattern>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>ServletDemo</servlet-name>
+    <servlet-class>cqnu.qb.ServletDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletDemo</servlet-name>
+    <url-pattern>/maven</url-pattern>
+  </servlet-mapping>
+</web-app>
